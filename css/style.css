@@ -1,0 +1,1103 @@
+@font-face {
+    font-family: 'Suite';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Manseh';
+    src: url(../font/YoonChildfundkoreaManSeh.woff);
+}
+
+@font-face {
+    font-family: 'Helve';
+    src: url(../font/HelveticaRoundedLTStd-Bd.woff);
+}
+
+html{
+    font-family: 'Suite';
+    color: #2c2c2c;
+    transition: transform 1s cubic-bezier(0.45, 0, 0.55, 1);
+
+}
+.Wrap{
+    width: 100%;
+    height: 100%;
+    max-width: 2560px;
+    justify-content: center;
+}
+
+header .hWrap{
+    z-index: 999;
+    position: relative;
+
+
+}
+header .hWrap h1{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+header .hWrap h1 img{
+    width: 150px;
+
+}
+
+header .hWrap .gnb{
+
+    background-color: #f3c300;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 45px;
+    position: fixed;
+    top: 20px;
+    right: 40px;
+
+
+
+}
+
+header .hWrap .gnb p{
+    font-family: 'Helve';
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px;
+    width: 95px;
+    height: 50px;
+    
+}
+
+/*
+---------------- banner ----------------
+*/
+
+
+
+.banner
+{   margin-left: auto;
+    margin-right: auto;
+    height: 1120px;
+    width: 100%;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+
+/*-------- 캐릭터 소개 ---------*/
+
+.banner .family .step1 .text{
+    font-family: 'Manseh';
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    left: 40%;
+
+}
+
+.banner .family .peppa img{
+    position: absolute;
+    width: 327px;
+    bottom: 265px;
+    z-index: 4;
+    left: 34%;
+    transition: transform 0.4s;
+}
+
+
+.banner .family .gif{
+    opacity: 0;
+    z-index:3;
+
+}
+
+
+.banner .family .peppa:hover .gif{
+    opacity: 1;
+    transform: scale(1.1);
+
+}
+
+.banner .family .peppa:hover .png{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+
+/* 엄마 mom */
+
+.banner .family .mom:hover .gif{
+    opacity: 1;
+    transform: scale(1.1);
+
+}
+
+.banner .family .mom:hover .png{
+    opacity: 0;
+    transform: scale(1.1);
+}
+.banner .family .mom img{
+    position: absolute;
+    width: 494px;
+    bottom: 239px;
+    left: 49%;
+    transition: transform 0.4s;   
+}
+
+/* 조지 bro */
+
+.banner .family .bro:hover .gif{
+    opacity: 1;
+    transform: scale(1.1);
+
+}
+
+.banner .family .bro:hover .png{
+    opacity: 0;
+    transform: scale(1.1);
+}
+.banner .family .bro img{
+    position: absolute;
+    width: 374px;
+    bottom: 233px;
+    left: 44%;
+    transition: transform 0.4s;
+    z-index: 4;
+}
+
+/* 아빠 dad */
+.banner .family .dad .png{
+    position: absolute;
+    width: 284px;
+    bottom: 285px;
+    left: 25%;
+    transition: transform 0.4s;
+    z-index: 1;
+}
+
+.banner .family .dad:hover .png{
+    opacity: 1;
+    transform: scale(1.1);}
+
+
+.banner .family .dad .gif img{
+    position: absolute;
+    width: 300px;
+    bottom: 500px;
+    left: 25%;
+    transition: transform 0.4s;
+    z-index: 1;
+    opacity: 0;
+}
+
+
+.banner .family .dad:hover .gif{
+    opacity: 1;
+
+}
+
+
+
+
+/*-------- 뒷배경 ---------*/
+.banner .bnImg .back{
+    position: relative;
+    
+}
+
+.banner .bnImg .heart{    
+    position: absolute;  
+    top: 159px;
+    left: 253px;
+    width: 240px}
+
+
+.banner .bnImg .tree1{
+    position: absolute;
+    top: -1px;
+    left: -76px;
+    width: 420px;
+}
+
+.banner .bnImg .tree2{
+    position: absolute;
+    top: -1px;
+    right: -209px;
+    width: 410px;
+    box-sizing: border-box;
+}
+
+
+.banner .bnImg .bird{
+    position: absolute;  
+    left: 330px;
+    bottom: 440px;
+    width: 240px;
+
+}
+.banner .bnImg .cloud{
+    position: absolute;  
+    top: 49px;
+    left: 253px;
+    width: 250px;
+}
+
+
+
+/* 
+------------------- con (등장인물 소개) ------------------
+*/
+
+.con{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    position: relative;
+    width: 100%;
+}
+
+
+.con .slick-dots{
+    width: 80%;
+
+}
+.con .title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.con .title p{
+    font-family: 'Manseh';
+    font-size: 24px;
+    font-weight: 600
+}
+.con h2{
+    font-weight: 600;
+    font-size: 38px;
+    
+}
+
+.con .slick-dots{
+    width: 1200px;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    order: 1;
+}
+
+.con .slick-dots li{
+    position: relative;
+}
+.con .slick-dots li p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    position: absolute;
+    top: 41%;
+    left: 47%;
+    text-shadow: 1px 1px 1px #2c2c2c4b;
+}
+
+.con .slick-list{
+    order: 2;
+    width: 100%;
+
+
+}
+
+.con .slick-dots li{
+    width: 262px;
+    position: relative;
+
+}
+
+.con .slick-dots li img{
+    width: 249px;
+
+}
+.con p{
+    font-size: 24px;
+}
+
+.con .family{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.con ul:not(.family){
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    flex-wrap: wrap;
+    
+}
+.con .slick-list{
+    width: 100%;
+    overflow: hidden;
+}
+.con .family li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.con ul .text{
+    padding-left: 100px;
+}
+
+.con ul li h3{
+    font-size: 38px;
+    margin-bottom: 15px;
+    display: flex;
+    line-height: 25px;
+}
+
+.con ul .peppa h3,
+.con ul .daddy h3{
+    line-height: 30px;
+}
+
+
+.con ul .peppa h3 span img,
+.con ul .daddy h3 span img
+{
+    width: 92px;
+}
+
+.con ul li h3 span img{
+    width: 120px;
+    margin-left: 10px;
+
+}
+.con .family .pic{
+    
+}
+.con ul .pic{
+    width: 440px;
+    
+}
+
+
+
+
+
+/* 
+------------------- con2 (페퍼시리즈 소개) ------------------
+*/
+
+
+.con2{
+    height: 1000px;
+    background: url(../images/world_of_peppa_bg.png) no-repeat center;
+    background-size: cover;
+    padding-top: 50px;
+    margin: 60px auto 60px auto ; 
+    position: relative;
+}
+
+.con2 .title{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.con2 .title h2{
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.con2 .title p{
+    font-family: 'Manseh';
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.con2 .video .list{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: auto auto 40px;
+}
+
+
+.con2 .video .list .button{
+    font-size: 24px;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255, 0.8);
+    height: 42px;
+    border-radius: 25px;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding:  5px 20px 5px 20px;
+    transition: all 0.5s;
+}
+
+.con2 .video .list .button:hover{
+    background-color: rgb(230, 94, 162);
+    color: #fff;
+
+}
+
+.con2 .slide{
+    overflow: hidden;
+/*    margin: 30px auto 50px;*/
+
+    opacity: 1;
+    width: 100%;
+
+}
+
+.con2 .videobox{
+    width: 800px;
+    margin-left: 15px;
+    margin-right: 15px;
+    transition: all 300ms ease;    
+    transform: scale(0.8);
+    opacity: 0.6;
+    position: relative;
+}
+
+.con2 .videobox.slick-center{
+    transform: scale(1);
+    opacity: 1;
+}
+
+.con2 .slide img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+
+.con2 .slide .videobox .play img{
+    display: none;
+}
+
+.con2 .slide .videobox a:hover .play img{
+    width: 50px;
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    z-index: 3;
+    display: block;
+    
+    
+}
+
+
+.con2 .video .sticker{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.con2 .video .sticker .pep{
+    position: absolute;
+    width: 300px;
+    bottom: -22px;
+    left: 407px;
+}
+
+.con2 .video .sticker .mom{
+    position: absolute;
+    width: 232px;
+    bottom: 4px;
+    right: 394px;
+}
+
+.con2 .btn{
+    position: absolute;
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.con2 .btn .next{
+    border: 0;
+    background-color: inherit;
+ /*   position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: 712px;
+    margin-top: -253px;*/
+}
+.con2 .btn .prev{
+    border: 0;
+    background-color: inherit;
+ /*  position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -771px;
+    margin-top: -253px;*/
+}
+
+
+.con2 .btn img{
+    width: 55px;
+
+}
+
+/* 
+------------------- con3 (벽돌 이미지) ------------------
+*/
+
+.con3{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: relative;
+    padding-top: 200px;
+}
+
+.con3 .row{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+}
+
+.con3 .pic:nth-child(4){
+    width: 380px;
+    height: 300px;
+    background-color: #ffacde;
+    border-radius: 10px;
+    position: relative;
+}
+
+.con3 .pic .chick{
+    position: absolute;
+    top: -86px;
+    left: -5px;
+    width: 371px;
+}
+
+.con3 .pic:nth-child(8) img{
+width: 300px;
+height: 300px;
+border-radius: 10px;
+}
+
+
+.con3 .pic .play{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    transition: all 0.7s;
+    z-index: 3;
+}
+
+.con3 .pic:hover .play{
+    position: absolute;
+    bottom: 45%;
+    right: 47%;
+    z-index: 3;
+}
+
+
+.con3 .row .pic{
+    margin: 9px;
+    transition: all 1s;
+}
+
+.con3 .row .pic:nth-child(3){
+    width: 16%;
+}
+
+.con3 .sticker img{
+    width: 220px;
+}
+
+.con3 .sticker .player2{
+    position: absolute;
+    bottom: 30px;
+    right: 182px;
+
+}
+
+.con3 .sticker .player1{
+    position: absolute;
+    bottom: -5px;
+    right: 410px;
+}
+
+
+.con3 .pic:hover img:last-child{
+    transform: scale(1.02);
+}
+
+.con3 .pic img:last-child{
+    transition: all 0.2s;
+}
+
+
+/* 
+------------------- con4 (굿즈 판매) ------------------
+*/
+
+
+.con4{
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    width: 100%;
+}
+
+.con4 .title{
+    margin-left: 240px;
+    padding-top: 100px;
+}
+.con4 .title h4{
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.con4 .title p{
+    font-size: 36px;
+}
+
+
+.con4 .title .price{
+    font-size: 28px;
+    color: #4949497d;
+    font-weight: 500;
+    margin-top: 20px;
+    display: flex;
+}
+
+.con4 .title .price .sale{
+    font-size: 44px;
+    color: palevioletred;
+    font-weight: 900;
+    margin-left: 30px;
+}
+
+.con4 .slide{
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 1920px*/;    
+    margin-top: 100px;
+    height: 780px
+}
+
+/*  slide 01 */
+
+.con4 .slide1{
+    background-color: #f7f7f7 ;
+    position: relative;
+    height: 609px;
+}
+.con4 .slide1 .img{
+    position: absolute;
+    bottom: 20px;
+    right: 189px;
+}
+
+.con4 .slide1 .img img{
+    width: 725px;
+
+}
+
+/*  slide 02 */
+
+.con4 .slide2{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../images/slide_bg02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+height: 610px;
+
+
+}
+
+
+.con4 .preview{
+    padding-left: 240px;
+    
+}
+
+.con4 .preview .item{
+    width: 580px;
+    height: 132px;
+    background-color:#fff ;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.con4 .preview .item .pic{
+    width: 150px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.con4 .preview .item .pic img{
+    height: 100px;
+}
+/*
+.con4 .preview .item:nth-child(1) img{
+    margin-left: 55px;
+    margin-right: 45px;
+    height: 100px;
+}
+
+.con4 .preview .item:nth-child(1) .cart{
+    margin-right: 40px;
+    height: 50px;
+}
+*/
+
+
+.con4 .preview .item p{
+    font-size: 22px;
+    width: 380px;
+    
+   } 
+.con4 .preview .item {
+    align-items: center;
+
+}
+
+.con4 .preview .item .price{
+    font-size: 28px;
+    font-weight: 700;
+    color: palevioletred;
+}
+
+.con4 .preview .item .cart{
+    height: 50px;
+    margin-right: 40px;
+    transition: all 0.3s;
+    
+
+}
+
+.con4 .preview .item .cart:hover{
+    transform: scale(1.2);
+}
+
+/*
+.con4 .arrow{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    z-index: 3;
+    
+}
+
+.con4 .arrow .prev{
+    margin-top: 100px;
+    margin-left: -917px;
+}
+
+.con4 .arrow .next{
+    margin-top: 100px;
+    margin-left: 1706px;
+}
+
+.con4 .arrow button{
+    background-color: transparent;
+    border: 0;
+}
+
+.con4 .arrow img{
+    width: 60px;
+    opacity: 0.8;
+}
+*/
+.con4 .slick-dots{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 200px;
+    right: 50%;
+    z-index: 3;
+
+}
+.con4 .slick-dots li button{
+    border: 0;
+    width: 13px;
+    height: 13px;
+    background-color: rgba(216, 112, 147, 0.623);
+    border-radius: 50%;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: transparent;
+}
+
+
+/* 
+------------------- con5 (유튜브 소개) ------------------
+*/
+
+
+
+.con5 {
+    background-image: url(../images/con5-background.jpg);
+    height: 800px;
+    padding-top: 129px;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.con5 .title{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+
+.con5 .title .thum{
+    width: 220px;
+}
+
+.con5 .title img{
+    width: 300px;
+
+}
+
+.con5 .video{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    overflow: hidden;
+
+}
+.con5 .video img{
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.con5 .channel{
+    height: 250px;
+    background-image: url(../images/channelBG.jpg);
+    margin-top: 117px;
+    position: relative;
+
+}
+
+.con5 .channel ul {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.con5 .channel ul li img{
+    width: 200px;
+
+}
+
+/* 
+------------------- footer ------------------
+*/
+
+footer{
+    height: 660px;
+    background-color:#f1b7ff;
+    display: flex;
+    padding-left: 80px;
+    padding-top: 80px;
+    font-size: 18px;
+    position: relative;
+    margin-top: 247px;
+
+
+}
+
+
+footer .address{
+    display: flex;
+    text-align: left;
+    margin-top: 40px;
+}
+
+footer .address div{
+    margin-left: 20px;
+
+}
+
+
+footer .contact{
+    position: relative;
+}
+
+footer .contact .copyrights{
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    width: 300px;
+
+}
+
+footer .contact p{
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+
+footer .contact .copyrights i{
+    margin-right: 5px;
+    margin-bottom: 33px;
+}
+
+footer .contact h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+
+
+}
+
+footer .side{
+    position: absolute;
+    bottom: 26%;
+    right: 1%;
+    align-items: left;
+}
+
+footer .side img{
+    margin-bottom: 20px;
+    margin-left: 15px;
+    height: 57px;
+
+}
+footer .sns{
+    margin-bottom: 50px;
+}
+footer .sns ul{
+    display: flex;
+}
+footer .sns li{
+    width: 160px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #8585853f;
+    margin-left: 10px;
+    transition: all 1s;
+
+}
+
+footer .sns li:hover{
+    background-color: #7c7c7ca6;
+}
+
+footer .sns li a{
+    display: flex;
+    justify-content: center;
+    line-height: 48px;
+
+}
+
+footer .sns li i{
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+footer .sns li p{
+    font-weight: 600;
+
+}
+
+
+
+footer .lang{
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+footer .lang i{
+    margin-right: 15px;
+}
+
+footer .lang p{
+    font-weight: 600;
+    margin-right: 10px;
+    line-height: 4px;
+}
+
+footer .lang a{
+    transition: all 1s;
+}
+
+footer .lang a:hover{
+    color: #7c7c7ca6;
+}
+
+
+.pen{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(33, 106, 201, 0.767);
+    z-index: 3;
+    transition: all 0.7s linear;
+}
+
+.pen.active{
+    transform: translate(-400px, -411px);
+    
+    
+}
+
+.pen .penimg{
+    transform: rotate(45deg);
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.pen:hover{
+    transform: scale(1.4);
+}
+
+.pen.active:hover{
+    transform: translate(-400px, -411px);
+    
+}
